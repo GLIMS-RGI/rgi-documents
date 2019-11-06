@@ -1,28 +1,4 @@
-# RGI Meeting notes
-
-## March 06
-
-### Participants
-
-- Regine Hock
-- Fabien Maussion (late)
-- Philipp Rastner
-- Bruce Raup
-- Frank Paul
-
-Not present: Michael Zemp
-
-### Agenda 
-
-
-### Action items 
-
-- Regine will draft an email
-- Fabien will check the list again
-- Frank sends an email for time EGU
-- Find a format for sharing info 
-
-
+# RGI Telecon notes
 
 ### Participants
 
@@ -67,15 +43,13 @@ Add a new task force to make it clear that generating the RGI is going to imply 
 
 Submit ASAP. Start to work already, because "in one way or another", it will be accepted. 
 
-Fabien will merge all the comments in the text and "wrap-it-up", send out for final review and submit early next week.
-
 Suggested reviewers:
 - Pierre Pitte (Mendoza, Argentina): pierrepitte@mendoza-conicet.gob.ar 
 - Thorsten Seehaus (Erlangen, Germany): thorsten.seehaus@fau.de
 - Jon Ove Hagen (Oslo, Norway): j.o.m.hagen@geo.uio.no
 - Akiko Sakai (Nagoya University): shakai@nagoya-u.jp
 - Guðfinna Aðalgeirsdóttir (Iceland): gua@hi.is
-- Adina Racoviteanu (Aberystwyth, UK): adr18@aber.ac.uk
+- Adina Racoviteanu 
 
 New RGI has to be delivered within 18 months in order to meet Copernicus deadline.
 
@@ -83,6 +57,7 @@ New RGI has to be delivered within 18 months in order to meet Copernicus deadlin
 
 We agreed on a "in site" meeting in Zürich, Jan 9 afternoon (for Innsbruck to be continued on 10).
 
-### 6. Status of DEM work
+6. Status of DEM work
 
-Advancing well! Thanks Matthias for all the work. Summary here: https://hackmd.io/kZ808zYwTlKZbdamrx1AtA
+
+
