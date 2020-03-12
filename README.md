@@ -2,6 +2,9 @@
 
 Documents, notes and discussion about the RGI working group
 
+## Meeting notes 
+
+See this [document](https://github.com/GLIMS-RGI/rgidocs/blob/master/meeting_notes.md).
 
 ## Archive of sent emails
 
