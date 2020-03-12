@@ -2,13 +2,12 @@
 
 Documents, notes and discussion about the RGI working group
 
-## Meeting notes 
+## Official documents
 
-See this [document](https://github.com/GLIMS-RGI/rgidocs/blob/master/meeting_notes.md).
-
-## Archive of sent emails
-
-See this [google doc](https://docs.google.com/document/d/1JXbkTpKiViVH39fFP3u6m8-mTBYpA1fGgUEdNW9T1ro/edit?usp=sharing)
+- the [RGI IACS proposal (2019)](https://docs.google.com/document/d/1Z1UqkeR_F_b8CgKAKhf8JwUVn4lCmeBkncVZr_xNlvc/edit?usp=sharing).
+- [Meeting notes](https://github.com/GLIMS-RGI/rgidocs/blob/master/meeting_notes.md)
+- [Timeline](https://docs.google.com/spreadsheets/d/1ZYFcPyYySrXSOf0mmv6zPWlntn91VUzO-OVgOA0Pb6E/edit?usp=sharing)
+- [Archive of sent emails](https://docs.google.com/document/d/1JXbkTpKiViVH39fFP3u6m8-mTBYpA1fGgUEdNW9T1ro/edit?usp=sharing)
 
 ## License 
 
