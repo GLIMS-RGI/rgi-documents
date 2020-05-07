@@ -1,6 +1,39 @@
 # RGI Meeting notes
 
-## March 6th 2020 (Telecon)
+## May 5th 2020 Kick-off meeting (EGU telecon)
+
+### Participants
+
+Steering committee + Members + Contributors + Visitors
+
+### Notes
+
+Notes on [google doc](https://docs.google.com/document/d/1m0qg_RCbxbNDT31IA-dNX3zESSylqwPg4cqCoMeZmAk/edit?usp=sharing).
+
+## April 14th 2020 (telecon)
+
+### Participants
+
+RGI Steering committee 
+
+### Agenda draft
+
+- RGI on demand alpha-release: 
+    - first reviews are coming in
+    - 5th of May call
+    - revised timeline 
+- Organisation of first WG call with all members (All):
+    - Organise call for action - here the work for us is to engage and motivate the group:
+        - See the agenda draft on google docs
+        - RGI-on-demand testing and choice of outlines. Ideally, we want a smaller task force to be created for this (too many people detrimental)
+        - RGItools and related tools: call for contribution and ideas
+        - Organisation of a forum / issue tracker for community feedback regaring RGI6 and future betas of RGI7: see https://github.com/GLIMS-RGI/rgi_issue_tracker
+- EGU slides for Frank's session
+- AGU session? RAGMAG + RGI + GTNG from Bruce 
+- Any other business?
+
+
+## March 6th 2020 (telecon)
 
 ### Participants
 
@@ -57,7 +90,7 @@ Regine, Michi, Frank, Philipp, Matthias, Fabien, Bruce (remotely from 4 pm)
             - We opened a new GLIMS-RGI github organisation. See https://github.com/GLIMS-RGI 
 
 
-## November 6th 2019 (Telecon)
+## November 6th 2019 (telecon)
 
 ### Participants
 
