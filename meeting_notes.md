@@ -10,7 +10,7 @@ Steering committee + Members + Contributors + Visitors (60+)
 
 The notes are available on [google docs](https://docs.google.com/document/d/1m0qg_RCbxbNDT31IA-dNX3zESSylqwPg4cqCoMeZmAk/edit?usp=sharing) - feel free to comment on them!
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Two IACS WGs held open meetings at EGU online yesterday <a href="https://twitter.com/EuroGeosciences?ref_src=twsrc%5Etfw">@EuroGeosciences</a>. 60+ participants joined to hear plans of &#39;RGI and its role in future glacier monitoring and GLIMS&#39; and &#39;RAGMAC&#39;. GLIMS had an open core team meeting. The GTN-G executive board also met <a href="https://twitter.com/hashtag/shareEGU20?src=hash&amp;ref_src=twsrc%5Etfw">#shareEGU20</a>. <a href="https://t.co/XyL1EgQiVN">pic.twitter.com/XyL1EgQiVN</a></p>&mdash; IACS (@iacscryo) <a href="https://twitter.com/iacscryo/status/1257922314903175168?ref_src=twsrc%5Etfw">May 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+[![](https://i.imgur.com/OkS1kGL.jpg)](https://twitter.com/iacscryo/status/1257922314903175168)
 
 ## April 14th 2020 (telecon)
 
