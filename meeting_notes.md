@@ -2,13 +2,16 @@
 
 ## May 5th 2020 Kick-off meeting (EGU telecon)
 
+![](https://i.imgur.com/OkS1kGL.jpg =300x)
+
+
 ### Participants
 
-Steering committee + Members + Contributors + Visitors
+Steering committee + Members + Contributors + Visitors (60+)
 
 ### Notes
 
-Notes on [google doc](https://docs.google.com/document/d/1m0qg_RCbxbNDT31IA-dNX3zESSylqwPg4cqCoMeZmAk/edit?usp=sharing).
+The notes are available on [google docs](https://docs.google.com/document/d/1m0qg_RCbxbNDT31IA-dNX3zESSylqwPg4cqCoMeZmAk/edit?usp=sharing) - feel free to comment on them!
 
 ## April 14th 2020 (telecon)
 
