@@ -8,6 +8,8 @@ Steering committee + Members + Contributors + Visitors (60+)
 
 ### Notes
 
+The slides are available [here](https://github.com/GLIMS-RGI/rgidocs/blob/master/presentations/RGI_KickOffMeeting_slides.pdf).
+
 The notes are available on [google docs](https://docs.google.com/document/d/1m0qg_RCbxbNDT31IA-dNX3zESSylqwPg4cqCoMeZmAk/edit?usp=sharing) - feel free to comment on them!
 
 [![](https://i.imgur.com/OkS1kGL.jpg)](https://twitter.com/iacscryo/status/1257922314903175168)
