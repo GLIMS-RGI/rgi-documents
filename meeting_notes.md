@@ -1,4 +1,119 @@
+###### tags: `meeting notes` `rgi`
+
 # RGI Meeting notes
+
+## October 9th 2020 WG meeting preparation (telecon)
+
+### Participants
+
+Steering committee 
+
+### Agenda
+
+- Lay out a "roadmap to RGI7"
+- Agree on responsibilities: 
+    - Frank and Philipp will "create the RGI", based on GLIMS/Bruce "RGI on demand". Then the datasets as decided in the Table and WG wide meeting will be copy pasted in it 
+    - Fabien will generate the "RGI on demand" using GLIMS API
+    - Fabien will do the first quality checks and add attributes (e.g. DEMs)
+    - Beta version will be checked by community
+- More infos on the mail drafted to community
+
+
+## August 18th 2020 New outlines submission meeting (telecon)
+
+### Participants
+
+Steering committee 
+
+### 1. Subregion + Region discussion
+
+- Bruce’s notes about the topic is on google docs 
+- Changing the files online is some work (DOIs, more than one repository to update, documentation, etc.), but OK. The implementation is more complex.
+- Long discussion about the current regions / subregions. Decisions: 
+    - we make the smallest changes that are needed but don’t touch the “problem” regions like HMA.
+    - Caucasus will be changed to incorporate missing glaciers in the South
+    - Greenland will get new SUBregions with published outlines. Ask to Greenland research community if OK 
+    - A border in South America will be moved a tiny bit in order not to cross a glacier complex. 
+    - Have a note on the technical document about the changes and how to determine membership to a region (with centroid) 
+    - Zürich will produce the final shapefile in iteration with Bruce and Fabien 
+    - For the future: can we have an idea about how many subregions / regions are NOT following valley bottoms?
+
+### 2. RGI Outlines discussion
+
+- Frank & Philipp prepared a table + presentation about the current situation and a suggestion about the changes to make. Looking very good, but possibly some elements are still missing because the “RGI-on-demand” button might uncover other potential datasets. Decision: 
+    - Bruce uses the RGI-on-demand feature and provides the results to Frank & Philipp for assessment. 
+    - Frank & Philipp prepare a slightly updated document with more text explaining what this is about. 
+    - The steering committee shortly assesses if this is ready to go
+    - We organize an RGI-wide meeting first half of September to discuss and accept the working document
+
+### 3. Other infos
+
+- Michael:
+    - NSIDC project with Ann Windnagel: find the biggest complexes for each region: found some errors in GLIMS/RGI which will be reported.
+    - Romain Huguonnet’s global geodetic dataset is in review: discussions about how to share the data: aggregated series will be in Pangea, the Geodetic MBs at WGMS, but the full DEMs still in discussion.
+    - Goal: mass-change time-series based on that dataset are in preparation
+- Frank:
+    - EU project: start working on a “LIA RGI”.
+
+
+## July 27th 2020 RGI meeting (telecon)
+
+### Participants
+
+Steering committee 
+
+### Agenda draft
+
+- Regions file need update:
+    - Caucasus glaciers not fully in a region boundary
+    - Some glacier outlines across boundaries -> little tweaks but no big change for political reasons
+    - Add level 2 regions for some regions, mostly Greenland
+    - Obstacle: GTN-G regions have to agree
+- Bruce:
+    - All dev work has been moved from test to production (almost there at time of call)
+    - Caveats: 
+        - because of boundary issues not all glaciers are selected 
+        - Format of RGI-on-demand data still not 1-to-1 with normal GLIMS downloads
+- Frank:
+    - Still working on getting data from various groups 
+    - 9 datasets needed from Bruce, only two available atm
+    - Alps: 2000 to 2003 diffs are small - sometimes the quality is less than 2003 because of bad scenes. Frank: not replace existing data (main argument: metadata with 60 scenes against 6 scenes for the 2003 data). Debate if these arguments are strong enough. Define and use the “decision matrix” with factors.
+    - Northern Ellesmere Islands: outlines similar but ice divides very different - RGI seems more reasonable though and outlines same year, but very strange artifacts in the new data.
+    - Next steps:
+        - More datasets needed from Bruce to Frank
+        - Philipp volunteers for the (confusion) decision matrix
+        - New data submissions:  N. Ellesmere Island data have been ingested into GLIMS (for 1999, 2005, and 2015).
+
+
+
+## July 6th 2020 "GLIMS freeze" RGI meeting (telecon)
+
+### Participants
+
+Steering committee 
+
+### Notes 
+
+- Outlines list Bruce are not in GLIMS yet (Alps, Prince William Sound glaciers, Argentina inventory are ingested recently)
+- Availabilities over the summer:
+    - Bruce is around 
+    - Frank is around
+    - Philipp is around - mid-september baby coming 
+    - Regine is around (Oslo from 1 September on)
+    - Fabien: one week afk August
+- RGI on demand feature: alpha version was on server since a couple of months ago. Number of reported issues fixed. Current version on test server -> to be moved on the production server. Ingesting new outlines can be pretty quick. 
+- Frank:
+    - Plan A: use the RGI on demand feature - testing is going to decide how this works
+    - Plan B: “Data integration” below. RGI6 as baseline, and replace the RGI6 outlines as submitted by the various groups (cut and paste). Caveat: attributes will be different. Advantage: easier maybe, given the number of datasets that need replaced.
+    - Plan C: “RGI extraction tool” based on year + submission ID
+    - No matter how we do: the datasets need to be in GLIMS for copyright issues. Once the decision is more or less done, the list of criteria can be decided upon
+- Bruce:
+    - Button is in good shape - where it does not work nicely probably a human will have issues as well (e.g. Patagonia and ice divides)
+    - “Outlines working group” will meet again and discuss the details. 
+- More discussions
+    - Naming of RGI7 -> how to do with multitemporal versions. RGI2000 v7?
+    - Sam Herreid data -> Frank writes to him
+
 
 ## May 5th 2020 Kick-off meeting (EGU telecon)
 
