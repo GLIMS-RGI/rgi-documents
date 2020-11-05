@@ -2,6 +2,11 @@
 
 # RGI Meeting notes
 
+
+## October23rd 2020 "Road to RGI" group wide meeting.
+
+Notes are on [google docs](https://docs.google.com/document/d/1nxbCDiMGz04B8yN_gHR49w1rptSk7ye5YUipUQMpPh8/edit?usp=sharing)
+
 ## October 9th 2020 WG meeting preparation (telecon)
 
 ### Participants
