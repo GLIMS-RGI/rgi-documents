@@ -2,6 +2,145 @@
 
 # RGI Meeting notes
 
+## June 22 17H 
+
+- Update Stephan / Fabien about scripted GLIMS data scraping
+    - regions 1, 13, 14, 15 ready. Minor problems in GLIMS, now reported [here](https://github.com/GLIMS-RGI/glims_issue_tracker)
+    - short presentation of workflow and where to fetch the data
+    - discussion with Bruce about ways forward: we basically scraped the entire GLIMS database and made conversions that should happen in GLIMS. Bruce agreed to bring this up to the next budget meeting.
+    - Add-on from Bruce: `submission_id` as another way to select glaciers as a batch in one submission
+- Update Frank / Philipp about outlines generation
+    - Elsemere Island next step for Philipp
+    - Agreed on ways forward
+- Update Bruce about GLIMS
+    - 10 months ago GLIMS became a DAAC product (budget is more secured but more requirements) https://lpdaac.usgs.gov/ -> this came with background work not visible to the community
+    - Data ingest happened recently: some LIA stuff and Norway things from Liss
+    - Issues MultiPolygon to Polygon (about done)
+    - Working on the outcrops to interiors as well
+    - Fiscal year Oct 1 to Sept 30 -> can plan for higher funding? Currently half a person.
+- Attributes discussion
+    - Based on Frank's table
+    - Rename "Classification" to "GlacierType"
+    - TermType stays? **TerminusType** is the consensus
+    - "Surging" becomes **SurgeType**
+    - Keep "Shelf" in TerminusType
+    - No "Shelf" in glacier type
+    - no "Rock Glacier" and "Ice shelf" as glacier type
+    - keep "Shelf" as "TerminusType"
+    - retire "Regenerated"
+- TODOs for near future:
+    - Fixing the attributes
+    - Send an email to RGI community explaining the workflow and asking for contributions
+    - RAGMAC talk
+    - ?
+
+
+## June 01 17H 
+
+
+- Update Stephan / Fabien about scripted GLIMS data scraping
+    - scripting is advancing - looks promising, close to point of no return
+    - RGI 01 already existing (1 glacier difference)
+    - Iceland needs to be fed to GLIMS as divides 
+- Update Frank / Philipp about outlines generation
+    - Philipp: Northern Greenland almost done
+    - Frank: Baffin Island dataset ready, some divides still not good
+- Timeline 
+- Update region files. See my first draft for the new region files here: https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7a_v1/l0_regions/ . The code and some info about what changed (almost nothing) is found here: https://github.com/GLIMS-RGI/rgitools/blob/master/notebooks/rgi_60_corrections/01_modify_rgi_reg_files.ipynb . Comments welcome.
+- Discussion: RGI05 sub-regions. Do we leave it as is for RGI7, or do we want to do the effort now? 
+    - RGI 7.1
+- Attributes discussion (continued)
+    - Nice examples from Frank
+    - GLIMS is the reference - we need a subdiscussion
+
+**Notes send by mail:**
+
+Thank you for the nice discussions yesterday. I would like to summarize the most important points here:
+- the scripting of "GLIMS to RGI" is moving forward. There are some small bugs to overcome (related to the nunataks -> interior polygon conversion) but this seems manageable, and Stephan was already able to generate the RGI region 01 (our first RGI7 file!). We will continue to work on this and share the scripts and the data soon.
+- the mapping from Philipp and Frank is also going forward, they've agreed on a deadline at the end of June for submission to GLIMS. Philipp will continue to work at 80% for geoville and would be keen to continue to work on RGI with us after that.
+- we expect no bottleneck from GLIMS because Frank and Pilipp know how to prepare the files nicely
+- Bruce will need to ingest Iceland (Region 6) RGI outlines into GLIMS because the current outlines there are not divided
+- Bruce and Fabien will discuss a way to unambiguously identify a specific outline in GLIMS after download. This is currently not possible.
+- For the region files: we agreed on my correction of Region 12 (Caucasus) and that no other changes will be made for RGI7. The next most urgent thing to address will be subregions in Greenland, to be tackled after RGI7.0
+- Note that Alaska's region box in the eastern hemisphere is useless. We decided to keep it, but I think it should be removed some day.
+- We continued the geomorphological attributes discussion. Nice examples from the complexity of the situations from Frank. I am going to try to summarize the general agreement here, even if Frank might have slightly different opinions:
+    1. Any attribute in RGI should be strictly consistent with GLIMS and also available in GLIMS (even if not populated)
+     2. Most attributes might be unpopulated for RGI7.0. If they become populated by the community, we will need to have a simple way to feed them back to GLIMS
+     3. Many of the problems listed by Frank are real issues, but from my point of view they are "pre GLIMS" problems, i.e. inventory problems, not RGI problems. RGI will not be able to decide how ice aprons need to be linked to glaciers or not, for example. This should happen before submission to GLIMS
+      4. Therefore, the decision to be taken now is: what do the glacier attributes we'd like to see in GLIMS (and by extension, in RGI) should look like. This decision is left for the next meeting.
+
+
+## May 17 17H 
+
+- Stephan
+- Update Philipp / Frank:
+    - list of regions which are already in GLIMS
+    - list of regions which are not in GLIMS (3,4,5,7,11,16,17,18) - example region 11 need update
+    - Regions 4 5 ready by the outlines and close to ready by divides
+    - Other regions still in the making
+    - Quality assessments on other regions with big errors
+- Update Stephan
+    - GLIMS - GAMDAM comparison
+- Discussion attribute on the table
+- Apple contacted Philipp for OSM 
+- Idea GGE or Microsoft for generation of RGI?????? 
+- Michael:
+    - RAGMAC mini conference with outlook RGI7
+    - Which are the largest glaciers of the world? NSIDC technical report + paper : RGI as co-authors maybe?
+
+
+
+
+
+
+## May 04 17H 
+
+First meeting altogether. 
+
+Updates
+- Welcome Stephan! IACS approved, the current bottleneck is account creation in Innsbruck 
+- Update Philip / Frank regarding glacier outlines
+    - RGI regions 1 2 3 4
+    - Philipp 5 6 7 8
+    - Bottlenecks Elsemere Baffin go through outlines again (Baffin outlines very bad) both near ready now. Should be accomplished this week.
+    - Northern Greenland by Philipp (was also awful)
+    - According to Frank only region 3 may need outline refining
+    - What about drainage basins?
+- First tests on RGI7 beta generation in HMA (Fabien Stephan)
+    - Current workflow:
+        - Download all GLIMS outlines 
+        - Select by analyst (here Sakai for GAMDAM)
+        - Write out 
+        - Update attributes and visual checks
+    - Open questions:
+        - Antoine Rabatel feedback
+        - Why can there be more than one glacier with same GLIMS ID?
+        - Centroid of glaciers: is lon-lat enough?
+        - GLIMS workflow
+    - Advantage of GLIMS based workflow are clear
+    - Disadvantage:
+        - You have bottleneck from GLIMS ingest
+        - Will it work to select the correct dataset?
+    - Feedback from community for 7.1
+
+- Attributes
+
+- very good suggestion from Michael: RGI7 should be empty from attributes that can't be done from GLIMS our automated.
+
+- More money 
+
+## Jan 21 21 Get-back-to-work meeting
+
+- round of updates:
+    - Fabien could run Bruce's script
+    - Frank and Phil making progress with inventory work 
+    - Phil is in Innsbruck 80% Geoville, 20% with Frank. Masterplan is missing
+    - Bruce: RGI-on-demand having knock-on effects on ingesting, but still fixing some issues necessary. NSIDC is now DAAC, less autonomy for Bruce.
+- start already
+    - Region 1 to 4: 
+    - Project management: 
+    - 
+
 
 ## October23rd 2020 "Road to RGI" group wide meeting.
 
