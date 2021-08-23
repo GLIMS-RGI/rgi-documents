@@ -2,6 +2,13 @@
 
 # RGI Meeting notes
 
+## August 09 Bruce + Fabien
+
+- RGI 12 outlines: received them -> will follow up on that. Format issues again.
+- Resubmissions of small corrections to outlines no problem
+- Trello board: https://trello.com/b/GkYTCJnd/glims-datasets 
+- GLIMS core team as RGI link
+
 ## June 22 17H 
 
 - Update Stephan / Fabien about scripted GLIMS data scraping
